@@ -103,7 +103,7 @@ function clearResultText() {
     .innerHTML = ` `;
  
   document.querySelector('.js-result')
-    .innerHTML = `Статистика обновлена. Сыграйте еще раз!`;
+    .innerHTML = `Статистика обновлена. <p>Сыграйте еще раз!`;
 }
 
 function resetScore() {
