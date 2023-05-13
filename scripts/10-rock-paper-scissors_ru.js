@@ -8,7 +8,7 @@ updateScoreElement();
 
 function clearResultClass() {
   let scoreText = document.querySelector('.js-result');
-  scoreText.classList.remove('result-Ничья');
+  scoreText.classList.remove('result-tie');
   scoreText.classList.remove('result-win');
   scoreText.classList.remove('result-loss');
 }
@@ -56,7 +56,7 @@ function playGame(playerMove) {
     scoreText.classList.add('result-loss');
   } else {
     score.Ничьяs++;
-    scoreText.classList.add('result-Ничья');
+    scoreText.classList.add('result-tie');
   }
 
   console.log(scoreText);
